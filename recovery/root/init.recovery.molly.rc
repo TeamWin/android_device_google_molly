@@ -4,7 +4,13 @@ on init
     # don't care about doing anything the correct way, here is the
     # worst possible way to fix this issue.
     # --- To be implemented ---
-
-    # The flashing colors in recovery mode is kinda weird, so let's
+    # I had planned on just making dummy file. I don't think we can change
+    # brightness the correct way anyways, I would have to check though.
+    
+    # The flashing LED colors in recovery mode is kinda weird, so let's
     # just make it blue!
     # --- To be implemented ---
+    # Find the LED device block and write to it to make it blue.
+    
+    # If anyone wants to attempt to implement the two things listed
+    # above, go ahead.
