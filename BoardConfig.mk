@@ -35,10 +35,10 @@ TARGET_NO_RADIOIMAGE := true
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyFIQ0 smsc95xx.boot_wol_config=0x07 smsc95xx.turbo_mode=N androidboot.selinux=permissive
 # If building TWRP recovery, comment out the two lines below, and uncomment the two below that.
-TARGET_KERNEL_SOURCE := kernel/google/molly
-TARGET_KERNEL_CONFIG := cyanogenmod_molly_defconfig
-# TARGET_PREBUILT_KERNEL := device/google/molly/recovery/mini-zImage
-# LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+#TARGET_KERNEL_SOURCE := kernel/google/molly
+#TARGET_KERNEL_CONFIG := cyanogenmod_molly_defconfig
+ TARGET_PREBUILT_KERNEL := device/google/molly/recovery/mini-zImage
+ LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
