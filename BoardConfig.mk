@@ -107,3 +107,4 @@ TW_NO_SCREEN_TIMEOUT := true
 TW_NO_CPU_TEMP := true
 TW_EXCLUDE_MTP := true
 TW_BRIGHTNESS_PATH := "/brightness"
+TW_EXCLUDE_BASH := true
